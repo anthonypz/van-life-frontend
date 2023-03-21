@@ -72,7 +72,10 @@ nav {
 }
 
 main {
-  margin-bottom: 84px;
+  margin: 0 auto 84px;
+  max-width: 768px;
+  display: block;
+  width: 100%;
 }
 
 footer {
@@ -184,6 +187,7 @@ footer {
   padding-bottom: 32px;
   margin-inline: 27px;
   border-radius: 5px;
+  text-align: center;
 }
 
 .about-page-cta h2 {
