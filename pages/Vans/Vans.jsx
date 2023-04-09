@@ -36,7 +36,10 @@ export default function Vans() {
       : vans
 
     const vanElements = displayedVans.map((van) => (
-      <div key={van.id} className="van-tile">
+      <div
+        key={van.id}
+        className="van-tile"
+      >
         <Link
           to={van.id}
           state={{
